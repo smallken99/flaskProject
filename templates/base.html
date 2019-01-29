@@ -1,0 +1,19 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+    {% if title %} 
+        {{ title }} 
+    {% else %}
+        Hello world 
+    {% endif %}
+{% endblock %}
+
+{% block navbar %} 
+  {% include "navbar.html" %}
+ {% endblock %}
+
+{% block content %}
+  <h1>Hello, Bootstrap</h1>
+{% endblock %}
+
+ 
